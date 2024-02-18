@@ -1,0 +1,31 @@
+.cart{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart > div{
+    margin-top: 3rem;
+}
+.cart > div > *{
+    margin-left: 2rem;
+}
+.plus{
+    padding: 0.8rem;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
+.minus{
+    padding: 0.8rem;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
+.delete{
+    padding: 0.8rem;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
